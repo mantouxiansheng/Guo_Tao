@@ -1,0 +1,15 @@
+{
+# 微信公众号配置
+"app_id": "wxc1859afb54d0b4db",
+"app_secret": "89ac877bdc7416b325c385ff9670a2ed",
+"template_id": "ZeAtMq7V8TBSFOFfjT_wc9x2IDs1iOF0REs-vxL8jfY",
+"user": ["omQxR6R9DU32kaAjwROQKj4T0oTI","omQxR6eqZtgZgFmrSErWcMZTfIuE"], # 接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]
+# 信息配置
+"weather_key": "c67cf9b3446b43cebaf6d2cc37b6a23f",
+"region": "西安市", # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"birthday1": {"name": "雍容", "birthday": "r1997-07-14"}, # 生日1，姓名和生日，生日若为农历在最前面加上r即可
+"birthday2": {"name": "郭涛", "birthday": "r1997-01-07"},
+"love_date": "2022-02-12", # 在一起的日期，暂不支持农历
+"note_ch": "在你生命的最初30年中，你养成习惯；在你生命的最后30年中，你的习惯决定了你。", # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_en": "Where there is a will,there is a will" # 金句英文
+}
